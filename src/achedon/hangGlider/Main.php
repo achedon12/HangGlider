@@ -2,8 +2,7 @@
 
 namespace achedon\HangGlider;
 
-use ash\HangGlider\Events\ItemEvent;
-use pocketmine\event\Listener;
+use achedon\HangGlider\Events\ItemEvent;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 use pocketmine\utils\SingletonTrait;
