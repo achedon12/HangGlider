@@ -1,7 +1,5 @@
 # About
 
-![HangGlider](icon.jpeg)
-
 [FR] Simple plugin d'HangGlider permettant de planer
 
 [ENG] Simple configurable plugin with a whole system of death announcement events
@@ -25,15 +23,16 @@
     #        |___/
 
     # Plugin Version | do not touch this
-    version: v1.0
+    # version: v2.0.0
 
-    # This feature is not yet configurable
-    HangGlider: 341
+    # # This feature is not yet configurable
+    # # setup the name of the item that will be used to activate the hangGlider
+    # item: "slime_ball"
 
-    # Set your favorite Language <FR | ENG | ESP>
-    # Coming soon
+    # # Set your favorite Language <FR | ENG | ESP>
+    # # Coming soon
 
-    Language: FR
+    # Language: FR
 
 -----------------
 
