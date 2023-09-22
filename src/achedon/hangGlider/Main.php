@@ -1,8 +1,8 @@
 <?php
 
-namespace achedon\HangGlider;
+namespace achedon\hangGlider;
 
-use achedon\HangGlider\Events\ItemEvent;
+use achedon\hangGlider\events\ItemEvent;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 use pocketmine\utils\SingletonTrait;
@@ -22,7 +22,7 @@ class Main extends PluginBase
     protected function onEnable(): void
     {
         @mkdir($this->getDataFolder());
-        $this->saveResource("config.yml");
+        $this->saveDefaultConfig();
         $this->getServer()->getPluginManager()->registerEvents(new ItemEvent(), $this);
     }
 

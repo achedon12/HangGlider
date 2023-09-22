@@ -1,8 +1,8 @@
 <?php
 
-namespace achedon\HangGlider\Events;
+namespace achedon\hangGlider\events;
 
-use achedon\HangGlider\Main;
+use achedon\hangGlider\Main;
 use pocketmine\entity\effect\EffectInstance;
 use pocketmine\entity\effect\VanillaEffects;
 use pocketmine\event\entity\EntityDamageEvent;
