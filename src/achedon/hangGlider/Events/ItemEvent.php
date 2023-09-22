@@ -1,6 +1,6 @@
 <?php
 
-namespace ash\HangGlider\Events;
+namespace achedon\HangGlider\Events;
 
 use achedon\HangGlider\Main;
 use pocketmine\entity\effect\EffectInstance;
